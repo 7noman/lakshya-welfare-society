@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="bgRelief" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAF5E8" />
+      <stop offset="100%" stop-color="#F1ECE0" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgRelief)" />
+
+  <!-- Relief Packages Stack / Distribution Center -->
+  <g transform="translate(140, 160)">
+    <!-- Crates & Relief Aid Cartons -->
+    <rect x="20" y="140" width="120" height="90" rx="8" fill="#C59635" stroke="#9E7422" stroke-width="2" />
+    <path d="M20 170 H140 M80 140 V230" stroke="#9E7422" stroke-width="2" />
+    
+    <rect x="160" y="120" width="130" height="110" rx="8" fill="#205C46" stroke="#153E2F" stroke-width="2" />
+    <circle cx="225" cy="175" r="24" fill="#FFFFFF" opacity="0.2" />
+    <path d="M215 175 H235 M225 165 V185" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" />
+
+    <rect x="80" y="50" width="140" height="85" rx="8" fill="#FAF8F1" stroke="#DFD9CC" stroke-width="2" />
+    <text x="150" y="85" text-anchor="middle" font-family="'Lora', serif" font-size="14" font-weight="700" fill="#205C46">LAKSHYA</text>
+    <text x="150" y="105" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#53635D">Essential Family Relief Aid</text>
+
+    <!-- Warm Blanket / Grain Sack Bundles -->
+    <ellipse cx="340" cy="210" rx="50" ry="25" fill="#2B8A78" />
+    <ellipse cx="340" cy="190" rx="46" ry="22" fill="#C59635" />
+    <ellipse cx="340" cy="172" rx="42" ry="20" fill="#4AA493" />
+  </g>
+
+  <!-- Community Interaction Motif -->
+  <g transform="translate(80, 220)">
+    <circle cx="30" cy="30" r="15" fill="#DCA882" />
+    <path d="M12 50 Q30 46 48 50 L52 110 L8 110 Z" fill="#205C46" />
+    <!-- Giving Hands gesture -->
+    <path d="M48 65 Q70 65 85 75" stroke="#DCA882" stroke-width="6" stroke-linecap="round" fill="none" />
+  </g>
+
+  <g transform="translate(430, 230)">
+    <circle cx="30" cy="30" r="15" fill="#D8A07A" />
+    <path d="M14 50 Q30 46 46 50 L50 110 L10 110 Z" fill="#784A04" />
+    <!-- Receiving gesture -->
+    <path d="M14 75 Q-5 65 -15 65" stroke="#D8A07A" stroke-width="6" stroke-linecap="round" fill="none" />
+  </g>
+
+  <!-- Tag -->
+  <rect x="25" y="25" width="220" height="34" rx="17" fill="#FFFFFF" stroke="#C59635" stroke-width="1.5" />
+  <circle cx="42" cy="42" r="7" fill="#C59635" />
+  <text x="58" y="46" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="700" fill="#784A04" letter-spacing="0.5">FAMILY RELIEF DRIVE</text>
+
+  <!-- Bottom Caption -->
+  <rect x="25" y="385" width="550" height="42" rx="8" fill="#FFFFFF" stroke="#DFD9CC" stroke-width="1" />
+  <text x="45" y="411" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="600" fill="#123326">Seasonal Assistance & Essential Ration Support • Rural Households</text>
+</svg>

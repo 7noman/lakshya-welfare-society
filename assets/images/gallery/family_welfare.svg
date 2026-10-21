@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="bgFam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAF4EB" />
+      <stop offset="100%" stop-color="#E9F2EE" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgFam)" />
+
+  <!-- Protective Roof Motif / House Shelter -->
+  <g transform="translate(150, 110)">
+    <polygon points="150,20 20,120 280,120" fill="none" stroke="#205C46" stroke-width="4" stroke-linejoin="round" />
+    <path d="M60 120 V220 H240 V120" fill="#FFFFFF" stroke="#DFD9CC" stroke-width="2" />
+    
+    <!-- Heart & Caring Hands Inside Shelter -->
+    <circle cx="150" cy="165" r="45" fill="#EAF3EE" />
+    <!-- Heart Symbol -->
+    <path d="M150 178 C135 160 125 145 138 135 C146 128 150 138 150 138 C150 138 154 128 162 135 C175 145 165 160 150 178 Z" fill="#C59635" />
+    <!-- Protective arc -->
+    <path d="M115 185 Q150 205 185 185" stroke="#205C46" stroke-width="4" stroke-linecap="round" fill="none" />
+  </g>
+
+  <!-- Community Women & Family Circle -->
+  <g transform="translate(100, 260)">
+    <!-- Mother 1 -->
+    <circle cx="70" cy="35" r="16" fill="#D8A07A" />
+    <path d="M52 56 Q70 50 88 56 L92 120 L48 120 Z" fill="#2B8A78" />
+
+    <!-- Child -->
+    <circle cx="115" cy="55" r="12" fill="#E6BA95" />
+    <path d="M102 70 Q115 66 128 70 L130 120 L100 120 Z" fill="#C59635" />
+
+    <!-- Elderly matriarch / Counsellor -->
+    <circle cx="200" cy="30" r="18" fill="#DCA882" />
+    <path d="M180 52 Q200 46 220 52 L224 120 L176 120 Z" fill="#153E2F" />
+
+    <!-- Mother 2 -->
+    <circle cx="280" cy="35" r="16" fill="#D8A07A" />
+    <path d="M262 56 Q280 50 298 56 L302 120 L258 120 Z" fill="#4AA493" />
+
+    <!-- Mother 3 -->
+    <circle cx="340" cy="40" r="15" fill="#E6BA95" />
+    <path d="M324 58 Q340 54 356 58 L360 120 L320 120 Z" fill="#C59635" />
+  </g>
+
+  <!-- Tag -->
+  <rect x="25" y="25" width="220" height="34" rx="17" fill="#FFFFFF" stroke="#2B8A78" stroke-width="1.5" />
+  <circle cx="42" cy="42" r="7" fill="#2B8A78" />
+  <text x="58" y="46" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="700" fill="#205C46" letter-spacing="0.5">WOMEN & FAMILY CARE</text>
+
+  <!-- Bottom Caption -->
+  <rect x="25" y="385" width="550" height="42" rx="8" fill="#FFFFFF" stroke="#DFD9CC" stroke-width="1" />
+  <text x="45" y="411" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="600" fill="#123326">Community Family Counselling & Maternal Wellness Guidance • Chandoi</text>
+</svg>

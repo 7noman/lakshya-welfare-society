@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="bgMeeting" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EAF1ED" />
+      <stop offset="100%" stop-color="#FAF8F1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgMeeting)" />
+
+  <!-- Meeting Room / Community Center Board -->
+  <rect x="60" y="80" width="480" height="150" rx="10" fill="#FFFFFF" stroke="#205C46" stroke-width="2" />
+  
+  <text x="100" y="125" font-family="'Lora', serif" font-size="18" font-weight="700" fill="#205C46">Lakshya Welfare Society — Activity Planning</text>
+  <text x="100" y="150" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#C59635">Chandoi Community Outreach Strategy</text>
+
+  <!-- Flowchart / Agenda boxes on board -->
+  <g transform="translate(100, 165)">
+    <rect x="0" y="0" width="90" height="36" rx="4" fill="#E3F1EC" stroke="#205C46" stroke-width="1" />
+    <text x="45" y="22" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#205C46">1. Survey</text>
+
+    <line x1="90" y1="18" x2="120" y2="18" stroke="#205C46" stroke-width="2" marker-end="url(#arrow)" />
+
+    <rect x="120" y="0" width="100" height="36" rx="4" fill="#FEF7EA" stroke="#C59635" stroke-width="1" />
+    <text x="170" y="22" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#784A04">2. Health Camp</text>
+
+    <line x1="220" y1="18" x2="250" y2="18" stroke="#205C46" stroke-width="2" />
+
+    <rect x="250" y="0" width="100" height="36" rx="4" fill="#E3F1EC" stroke="#205C46" stroke-width="1" />
+    <text x="300" y="22" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#205C46">3. School Aid</text>
+  </g>
+
+  <!-- Conference Table with Volunteer Representatives -->
+  <g transform="translate(90, 260)">
+    <ellipse cx="210" cy="50" rx="200" ry="35" fill="#205C46" />
+    <ellipse cx="210" cy="46" rx="192" ry="31" fill="#2B8A78" />
+
+    <!-- Volunteers seated around table -->
+    <circle cx="60" cy="15" r="16" fill="#DCA882" />
+    <circle cx="130" cy="5" r="16" fill="#E6BA95" />
+    <circle cx="210" cy="0" r="17" fill="#D8A07A" />
+    <circle cx="290" cy="5" r="16" fill="#E6BA95" />
+    <circle cx="360" cy="15" r="16" fill="#DCA882" />
+
+    <!-- Documents / Notepad icons on table -->
+    <rect x="115" y="38" width="22" height="16" rx="2" fill="#FFFFFF" />
+    <rect x="198" y="35" width="24" height="18" rx="2" fill="#FFFFFF" />
+    <rect x="280" y="38" width="22" height="16" rx="2" fill="#FFFFFF" />
+  </g>
+
+  <!-- Tag -->
+  <rect x="25" y="25" width="220" height="34" rx="17" fill="#FFFFFF" stroke="#205C46" stroke-width="1.5" />
+  <circle cx="42" cy="42" r="7" fill="#205C46" />
+  <text x="58" y="46" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="700" fill="#205C46" letter-spacing="0.5">PLANNING & VOLUNTEERS</text>
+
+  <!-- Bottom Caption -->
+  <rect x="25" y="385" width="550" height="42" rx="8" fill="#FFFFFF" stroke="#DFD9CC" stroke-width="1" />
+  <text x="45" y="411" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="600" fill="#123326">Volunteer Coordination Meeting • Led by Dr. Riaz Ahmad & Community Team</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="bgOutreach" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EAF3EE" />
+      <stop offset="100%" stop-color="#FAF8F1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#bgOutreach)" />
+  
+  <!-- Subtle village backdrop -->
+  <path d="M0 320 Q150 290 300 320 T600 310 L600 450 L0 450 Z" fill="#D3E6DC" />
+  <rect x="0" y="340" width="600" height="110" fill="#205C46" opacity="0.9" />
+
+  <!-- Village Meeting Circle / Canopy -->
+  <g transform="translate(300, 190)">
+    <!-- Tree -->
+    <path d="M-10 160 Q-2 70 0 0 Q2 70 10 160 Z" fill="#153E2F" />
+    <circle cx="0" cy="-30" r="100" fill="#2B8A78" opacity="0.85" />
+    <circle cx="-60" cy="10" r="70" fill="#205C46" opacity="0.9" />
+    <circle cx="60" cy="10" r="70" fill="#205C46" opacity="0.9" />
+  </g>
+
+  <!-- Gathering Figures -->
+  <g transform="translate(180, 290)">
+    <!-- Seated Community Members in a Circle -->
+    <circle cx="30" cy="18" r="14" fill="#DCA882" />
+    <path d="M14 36 Q30 32 46 36 L50 80 L10 80 Z" fill="#FAF8F1" />
+
+    <circle cx="110" cy="15" r="14" fill="#D8A07A" />
+    <path d="M94 33 Q110 29 126 33 L130 80 L90 80 Z" fill="#C59635" />
+
+    <circle cx="190" cy="18" r="14" fill="#DCA882" />
+    <path d="M174 36 Q190 32 206 36 L210 80 L170 80 Z" fill="#2B8A78" />
+
+    <!-- Speaker / Founder standing -->
+    <circle cx="260" cy="0" r="15" fill="#E6BA95" />
+    <path d="M242 20 Q260 16 278 20 L282 90 L238 90 Z" fill="#153E2F" />
+  </g>
+
+  <!-- Editorial Info Badge on Image -->
+  <rect x="25" y="25" width="220" height="34" rx="17" fill="#FFFFFF" stroke="#205C46" stroke-width="1.5" />
+  <circle cx="42" cy="42" r="7" fill="#205C46" />
+  <text x="58" y="46" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="700" fill="#205C46" letter-spacing="0.5">COMMUNITY OUTREACH</text>
+  
+  <rect x="25" y="385" width="550" height="42" rx="8" fill="#FFFFFF" stroke="#DFD9CC" stroke-width="1" />
+  <text x="45" y="411" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="600" fill="#123326">Village Council & Welfare Discussion • Chandoi, Pilibhit</text>
+</svg>
